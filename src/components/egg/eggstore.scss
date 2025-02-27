@@ -1,0 +1,42 @@
+.egg{
+
+    .headline{
+        height: 50px;
+        background-color: #5d5b8d;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .news{
+        color: rgb(10, 10, 10);
+        background-color: #dedee7;
+        padding: 10px;
+    }
+
+    .search {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        border: 1px solid black;
+        border-radius: 5px;
+        padding: 5px;
+
+        input {
+          border: none;
+          width: 500px;
+          background-color: transparent;
+          color: themed("textColor");
+          align-items: center;
+          display: flex;
+
+          &:focus {
+            outline: none;
+          }
+
+        }
+      }
+    
+
+}
