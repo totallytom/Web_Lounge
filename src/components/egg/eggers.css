@@ -1,0 +1,34 @@
+.egg-container {
+    max-width: 950px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f7f7f725;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .egg-container h2 {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .egg-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .egg-header h2 {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .egg-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }

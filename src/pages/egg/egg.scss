@@ -1,0 +1,46 @@
+.egg{
+  overflow-x: auto;
+  max-width: 610px;
+  display: flex;
+  margin-top: 20px;
+
+  .headline{
+    height: 50px;
+    background-color: #5d5b8d;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.news{
+    color: rgb(10, 10, 10);
+    padding: 10px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    gap: 10px;
+    border: 1px solid rgba(156, 150, 150, 0.651);
+    border-radius: 5px;
+    padding: 5px;
+
+    input {
+      border: none;
+      width: 500px;
+      background-color: transparent;
+      color: themed("textColor");
+      align-items: center;
+      display: flex;
+
+      &:focus {
+        outline: none;
+      }
+
+    }
+  }
+}
+ 
+ 

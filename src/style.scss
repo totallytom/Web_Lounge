@@ -2,7 +2,7 @@ $themes:(
     light: (
         textColor: #000,
         bg: white,
-        logo: darkblue, 
+        logo: rgb(7, 7, 7), 
         bgSoft: #f6f3f3,
         textColorsoft: #555,
         border: lightgray,
@@ -43,4 +43,8 @@ $themes:(
         @return map-get($theme-map, $key);
       }
 
+body {
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(194,180,217,1) 51%, rgba(148,187,233,1) 100%);
+}
 

@@ -1,7 +1,12 @@
 import './music.css'
 import { useEffect, useRef, useState } from "react";
-import image from '../../assets/DINO.png';
+import image from '../../assets/images/DINO.png';
 import { PlayArrow, Pause } from "@mui/icons-material";
+
+const labels = {
+    "name" : "Thomas Kim",
+    "artist" : "Dino",
+};
 
 const musicpage = ({audioSrc}) => {
     //state variables to manage the player's status and current time. 

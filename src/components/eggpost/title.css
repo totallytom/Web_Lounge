@@ -1,0 +1,8 @@
+.title {
+    text-align: left;
+    font-family: "Archivo", sans-serif;
+    word-break: break-all;
+    padding: 0 10px;
+    letter-spacing: 1.5px;
+    margin: 20px 0 0 0;
+  }

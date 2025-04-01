@@ -1,10 +1,11 @@
 import React from 'react'
-import Eggstore from '../../components/egg/Eggstore'
+import Eggers from '../../components/egg/Eggers'
+import "./egg.scss"
 
 const Egg = () => {
   return (
     <div>
-      <Eggstore/>
+      <Eggers />
     </div>
   )
 }

@@ -1,0 +1,11 @@
+/* .imageHolder {
+  margin: 0;
+  padding: 0;
+} */
+
+.imgRounded {
+    border-radius: 10px;
+    box-shadow: 1px 3px 5px rgba(8, 1, 1, 0.555);
+    z-index: 1;
+  }
+  

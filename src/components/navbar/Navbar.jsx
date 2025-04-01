@@ -26,9 +26,11 @@ const Navbar = () => {
       <div className="left">
         <span>Lounge</span>
         <Link to="/" style={{textDecoration: "none", color: "inherit"}}>
-        <HomeIcon />
+          <HomeIcon />
         </Link>
-        {darkMode ? ( <WbSunnyOutlinedIcon onClick={toggle} /> ):(<DarkModeOutlined onClick={toggle}/>)}
+        <Link to= {`/profile/${currentUser.id}` } style={{textDecoration: "none", color: "inherit"}}>
+          <PersonOutlinedIcon/>
+        </Link>
         <Link to = {`/egg/${currentUser.id}` } style={{textDecoration: "none", color: "inherit"}}>
           <EggIcon />
         </Link>
@@ -42,8 +44,9 @@ const Navbar = () => {
           <input type="text" placeholder="Search..." />
         </div>
       </div> 
+
       <div className="right">
-        <PersonOutlinedIcon/>
+      {darkMode ? ( <WbSunnyOutlinedIcon onClick={toggle} /> ):(<DarkModeOutlined onClick={toggle}/>)}
         <EmailOutlinedIcon/>
         <NotificationsOutlinedIcon/>
         <div className="user">

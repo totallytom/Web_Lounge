@@ -1,0 +1,35 @@
+.recommended-music {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .music-card {
+    width: 250px;
+    margin: 5px;
+    background-color: #f7f7f7;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .music-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .music-info {
+    padding: 20px;
+  }
+  
+  .music-card button {
+    background-color: #5bdfc2;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }

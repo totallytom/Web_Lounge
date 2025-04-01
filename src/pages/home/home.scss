@@ -41,12 +41,17 @@
 
 .home{
   @include themify($themes) {
-    padding: 20px 70px;
-    background-color: themed("bgSoft");
+    padding: 20px 20px;
+    background: rgba(253, 253, 253, 0.233);
 
     @include mobile{
       padding: 10px;
     }
 
   }
+  
+  position: relative;
+  align-items: center;
+  border: solid 7px rgba(211, 211, 211, 0.226);
+ 
  }

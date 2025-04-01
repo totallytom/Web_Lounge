@@ -1,12 +1,12 @@
 @import "../../style.scss";
 @mixin mobile {
-  @media (max-width: 768px) {
+  @media (max-width: 200px) {
     @content;
   }
 }
 
 @mixin tablet {
-  @media (max-width: 960px) {
+  @media (max-width: 1000px) {
     @content;
   }
 }
@@ -18,7 +18,7 @@
     top: 70px;
     height: calc(100vh - 70px);
     overflow: scroll;
-    background-color: beige;
+    background-color: rgba(255, 255, 255, 0.795);
     color: themed("textColor");
   
     @include mobile{
@@ -44,7 +44,7 @@
         margin-bottom: 20px;
         background-color: themed("bg");
         border-radius: 10px;
-        border: 3px dotted themed("border");
+        border: 6px solid themed("border");
 
         span {
           color: gray;

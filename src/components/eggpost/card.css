@@ -1,0 +1,43 @@
+.Container {
+  overflow-x: auto;
+  max-width: 600px;
+  display: inline-flex;
+  width: 700px;
+  display: flex;
+}
+  .songCard {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border-radius: 10px;
+    background-color: #282828b9;
+    min-width: 100px;
+    height: 200px;
+    padding: 15px 0px;
+    margin: 0 15px;
+  }
+  
+  .songCard:hover {
+    transition-property: background-color;
+    transition-duration: 0.4s;
+    background-color: #353535;
+    cursor: pointer;
+  }
+
+  .playButton {
+    border: 3px solid #005f00;
+    border-radius: 100%;
+    width: 45px;
+    height: 45px;
+    background-color: #1fdf64;
+    text-align: center; 
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    left: 160px;
+    bottom: 90px;
+    margin: 0;
+    padding: 0;
+    cursor: default;
+  }
